@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang=es>
+
+    <head>
+        <meta name="Autor" content="Oscar Ariel Torres Martínez">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <meta charset="ISO-8859-1">
+        <meta charset="UTF-8">  
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link rel="shortcut icon" href="techmex-icon.ico"> 
+
+    <title>FORMULARIO</title>
+    </head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <body>
+          <div class="contenedor-padre">
+        
+<div class="contenedor-menu">
+<nav id="menu">
+    <li><a href="Index.html"><img src="techmex.png" width="60%"></a></li>
+<li><a href="Index.html">Inicio</a></li>
+<li>Miembros 
+<ul style="display:none">
+        <li><a href="">Oscar Torres</a></li>
+        <li><a href="#">Lionel Gomez</a></li>
+        <li><a href="#">Anselmo </a></li>
+        <li><a href="#">Jaime Abraham </a></li>
+        <li><a href="#">Rachel </a></li>
+    </ul>
+
+</li>
+
+<li><a href="Formulario.html">Formulario</a></li>
+<li><a href="Contacto.html">Contacto</a></li>
+
+</nav>
+</div> <!--Termina el menu-->
+ </div>
+
+
+
+        <div class="contenedor">
+            
+
+        <form class="formulario" action="mailto:oscarariel.torres737@gmail.com" method="post" enctype="text/plain">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>INGRESA DATOS </h2>
+        <p>NOMBRE</p>
+        <input type="nombre"required>
+        <p>EMAIL:</p>
+        <input type="email" required>    
+        <br>
+        <h2>EXPECTATIVAS </h2>
+        <label>Que esperas de nosotros: <br><input type="text"></label>
+        <br>
+        <h2>GENERO</h2>
+        <p>Genero:</p>
+        <input type="radio" id="ra1" name="Genero" value="HOMBRE">
+        <label for="ra1">HOMBRE</label>
+        <br>
+        <input type="radio" id="ra2" name="Genero" value="MUJER">
+        <label for="ra2">MUJER</label>
+        <br> 
+            <h2>QUE TE GUSTARIA?</h2>
+            <p>QUE TE GUSTARIA QUE IMPLEMENTEMOS</p>
+            <input type="checkbox" id="c1" name="Lenguaje1" value="Java">
+            <label for="c1">VR (Relaidad Virtual)</label><br>
+            <input type="checkbox" id="c2" name="Lenguaje2" value="Python">
+            <label for="c2">BIG DATA</label><br>
+
+            <h2>COMENTARIOS</h2>
+            <p>POR FAVOR DEJANOS TUS COMENTARIOS:</p>
+            <textarea name="Comentarios" id="com" cols="30" rows="10"></textarea>
+            <br>
+        
+            <input type="submit" name="submit" value="ENVIAR" />
+            <input type="reset" name="reset" value="LIMPIAR FORMULARIO" />
+        </form>
+
+        </div>
+
+        <script>
+
+//Desplegar al poner el cursor encima
+$('#menu li').hover(function(){   
+    $(this).find('ul').slideToggle('slow'); 
+});
+
+//Desplegar al hacer clic
+/*$('#menu li').click(function(){ 
+    $(this).find('ul').slideToggle('slow'); 
+});*/
+
+</script>
+
+
+
+
+<br>
+<br>
+<footer class="futer" align="center">
+    <address align="center">
+        PROLONGACION MADERO 3811 OTE<br>
+        FIERRO <br>
+        MONTERREY , NL ,<br>
+        C.P.64590
+    </address>
+    <p>Todos los derechos reservados.</p>
+    <p>&copy;TECHMEX </p>
+
+</footer>
+</body>
+
+</html>

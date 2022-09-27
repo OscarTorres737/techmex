@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html lang=es>
+
+    <head>
+        <meta name="Autor" content="Oscar Ariel Torres  Martinez">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <meta charset="ISO-8859-1">
+        <meta charset="UTF-8">  
+        <link rel="stylesheet" type="text/css" href="estiloIndex.css">
+        <link rel="shortcut icon" href="techmex-icon.ico"> 
+
+        
+    </head>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<body>
+    <div class="contenedor-padre">
+        
+<div class="contenedor-menu">
+<nav id="menu">
+    <li><a href="Index.html"><img src="techmex.png" width="60%"></a></li>
+<li><a href="Index.html">Inicio</a></li>
+<li>Miembros 
+<ul style="display:none">
+        <li><a href="">Oscar Torres</a></li>
+        <li><a href="#">Lionel Gomez</a></li>
+        <li><a href="#">Anselmo </a></li>
+        <li><a href="#">Jaime Abraham </a></li>
+        <li><a href="#">Rachel </a></li>
+    </ul>
+
+</li>
+
+<li><a href="Formulario.html">Formulario</a></li>
+<li><a href="Contacto.html">Contacto</a></li>
+
+</nav>
+</div> <!--Termina el menu-->
+ </div>
+<br>
+<br>
+<div class="contenedor-texto" align="center">
+   <p> TECHMEX es un Centro Tecnol&oacute;gico privado que lleva a&nacute;os dedicado a la Investigaci&oacute;n, Desarrollo e Innovaci&oacute;n en Tecnolog&iacute;as de la Informaci&oacute;n y las Comunicaciones (TIC), perteneciente a la Red de Institutos Tecnol&oacute;gicos de la Comunidad Valenciana (REDIT) y a la Federaci&oacute;n Mexicana de Centros Tecnol&oacute;gicos (FEDIT).
+<br>
+Desde 2023, en TECHMEX se desarrolla una I+D aplicada a las necesidades y problem&aacute;ticas de las empresas, buscando soluciones tecnol&oacute;gicas que respondan a los retos sociales y econ&oacute;micos, que mejoren la competitividad industrial, fomentando una sociedad m&aacute;s inteligente y sostenible.
+</p> 
+<img src="Empresa-de-tecnologia.jpg" width="50%" align="center">
+<br>
+<p>Video Acerca de nosotros</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4IyFinSIPZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>En TECHMEX buscamos siempre la inovacion. Esto se re reflejado con nuestros empleados, que siempre
+estan investigando las nuevas tecnologias, con la intencion de ofrecer siempre las mejores oportunidades
+dentro de la tecnologia.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+//Desplegar al poner el cursor encima
+$('#menu li').hover(function(){   
+    $(this).find('ul').slideToggle('slow'); 
+});
+
+//Desplegar al hacer clic
+/*$('#menu li').click(function(){ 
+    $(this).find('ul').slideToggle('slow'); 
+});*/
+
+</script>
+
+
+
+
+<br>
+<br>
+<footer class="futer" align="center">
+    <address align="center">
+        PROLONGACION MADERO 3811 OTE<br>
+        FIERRO <br>
+        MONTERREY , NL ,<br>
+        C.P.64590
+    </address>
+    <p>Todos los derechos reservados.</p>
+    <p>&copy;TECHMEX </p>
+
+</footer>
+
+</body>
+
+</html>

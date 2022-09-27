@@ -1,0 +1,103 @@
+.contenedor-menu{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.futer{
+    background-color: white;
+}
+.comunicarse{
+    width: 100%;
+    background-color: white;
+}
+.formulario{
+    background: white;
+    width: 50%;
+    height: 950px;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 3%;
+
+}
+.contenedor-texto{
+    width: 90%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: white;
+    padding: 5%;
+    display: flex;
+}
+.texto1{
+    padding: 3%;
+
+}
+.texto2{
+    padding: 3%;
+}
+
+
+body {
+    background-image: radial-gradient(circle at 100% 0%, #9effff 0, #9bf2ff 25%, #94d2f7 50%, #8bb3cf 75%, #7f97aa 100%);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+#menu {
+    float:left;
+    overflow:hidden;
+}
+#menu a{
+    text-decoration:none;
+    color:#fff;
+}
+
+#menu li {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  padding: 10px 0px;
+  background: black;
+  color: #fff;
+  text-align: center;
+  min-width: 132px;
+}
+#menu li:hover {
+    cursor:pointer;
+}
+#menu li img{
+    margin: 0px 0px -2px 0px;
+}
+#menu ul{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 11px;
+  max-width: 132px;
+  overflow: hidden;
+}
+#menu ul li {
+    background:black;
+}
+#menu ul :hover{
+background: white;
+color: black;
+}
+
+@media screen and (max-width: 580px) {
+#menu li {
+        float:none;
+}
+#menu ul {
+  position: relative;
+}
+    
+#menu ul li {
+    border:none;
+}
+}
